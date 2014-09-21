@@ -1,0 +1,1 @@
+http://xem.github.io/minicountdown/#1420000000000 ( <= or any timestamp of your choice)
