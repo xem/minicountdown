@@ -1,1 +1,1 @@
-<body onload='a=new Date(+location.hash.slice(1))-new Date;a-=864E5*(d=~~(a/864E5));a-=36E5*(h=~~(a/36E5));b.innerHTML=d+"d "+h+"h "+(m=~~(a/6E4))+"m "+~~((a-6E4*m)/1E3)+"s";setTimeout(b.onload)'id=b>
+<body onload=setInterval("a=location.hash.slice(1)-new\tDate;b.innerHTML=(a/864e5|0)+'d\t'+(a%864e5/36e5|0)+'h\t'+(a%36e5/6e4|0)+'m\t'+(a%6e4/1e3|0)+'s'") id=b>
