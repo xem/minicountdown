@@ -1,1 +1,1 @@
-<center style="font:9vw/96vh arial"id=b><script>function f(a){return('0'+~~a).slice(-2)}setInterval("b.innerHTML=(a=(location.hash.slice(1)-new Date)/6e4,f(a/1440))+'d '+f(a/60%24)+'h '+f(a%60)+'m '+f(a*60%60)+'s'",1)</script>
+<center style="font:9vw/96vh arial"id=b><script>setInterval("b.innerHTML=[(a=(location.hash.slice(1)-new Date)/6e4)/1440,a/60%24,a%60,a*60%60].map(function(c,d){return(c<10?'0':0)+~~c+'dhms'[d]}).join(' ')",1)</script>
